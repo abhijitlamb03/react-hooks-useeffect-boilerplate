@@ -1,20 +1,20 @@
-
+import React from 'react'
 import '../styles/App.css';
-import React, { useState } from 'react';
-
-export default function App() {
- //code here 
-
+import { useState, useEffect } from 'react';
+const App = () => {
+//code here 
  
+
+
+
   return (
-    <div>
-  <input id='input' value={inputValue} onChange={changeInput} />
-  
-      <p id='intro'>Concated String</p>
-      <p id='text'>{text} </p>
-      <button id='button' onClick={buttonClick}>
-        Click me
-      </button>
+    <div className="App">
+      <h1 id="text">Type a number between 1 and 10</h1>
+      <input id="input" onChange={changeInput} />
+      <p id="name">{name}</p>
     </div>
   );
 }
+
+
+export default App;
