@@ -1,21 +1,20 @@
-import React from 'react'
+
 import '../styles/App.css';
-import { useState, useEffect } from 'react';
-const App = () => {
+import React, { useState } from 'react';
+
+export default function App() {
+ //code here 
+
  
-
-
-
   return (
     <div>
-      <p id='text' >You clicked this much times</p>
-      <p id='count'>{count}</p>
-      <button id='button' onClick={}>
+  <input id='input' value={inputValue} onChange={changeInput} />
+  
+      <p id='intro'>Concated String</p>
+      <p id='text'>{text} </p>
+      <button id='button' onClick={buttonClick}>
         Click me
       </button>
     </div>
   );
 }
-
-
-export default App;
