@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/App.css';
 import { useState, useEffect } from 'react';
 const App = () => {
-//code here 
+
  
 const[name,setName]=useState('');
 const[id,setId]=useState(1)
